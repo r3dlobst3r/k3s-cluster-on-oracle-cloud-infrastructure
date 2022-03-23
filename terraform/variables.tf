@@ -31,5 +31,5 @@ variable "user_ocid" {
 
 variable "ssh_authorized_keys" {
   description = "List of authorized SSH keys"
-  type        = list(any)
+  type        = string
 }
